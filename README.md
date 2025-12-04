@@ -183,12 +183,12 @@ Dashboards incluem:
   "paymentTerms": "parcelado"
 }
 
-### 📙 **4.2 Consulta de Status**
+### 📙 4.2 Consulta de Status
 {
   "nfeKey": "35240512345678000123550010001234567890123456"
 }
 
-## 📗 **4.3 Avaliação de Crédito**
+## 📗 4.3 Avaliação de Crédito
 ```json
 {
   "customerId": "U2-001",
@@ -198,7 +198,7 @@ Dashboards incluem:
   "paymentDate": "2025-05-10"
 }
 
-## 📕 **4.4 Avaliação de Adiantamento**
+## 📕 4.4 Avaliação de Adiantamento
 ```json
 {
   "customerId": "U2-001",
@@ -208,7 +208,7 @@ Dashboards incluem:
   "requestDate": "2025-05-02T10:21:00Z"
 }
 
-## 📙 **4.5 Resposta de Liberação (Output)**
+## 📙 4.5 Resposta de Liberação (Output)
 ```json
 {
   "status": "approved",
@@ -220,9 +220,9 @@ Dashboards incluem:
 
 ---
 
-## 🟧 **5. Observabilidade e DevOps**
+## 🟧 5. Observabilidade e DevOps
 
-## 🟧 **5.1 Métricas (Datadog)**
+## 🟧 5.1 Métricas (Datadog)
 
 - lambda.validation.latency
 
@@ -233,7 +233,7 @@ Dashboards incluem:
 - rds.connection_pool_usage
 
 
-## 🟧 **5.2 Logs Estruturados**
+## 🟧 5.2 Logs Estruturados
 
 - trace_id
 
@@ -246,13 +246,13 @@ Dashboards incluem:
 - resultado das validações
 
 
-## 🟧 **5.3 Tracing**
+## 🟧 5.3 Tracing
 
 Acompanhamento completo:
 
 API Gateway → Lambda 01 → DynamoDB → Lambda 02 → RDS → Lambda 03 → SQS.
 
-## 🟧 **5.4 Alertas**
+## 🟧 5.4 Alertas
 
 - Erro 500
 
@@ -266,7 +266,7 @@ API Gateway → Lambda 01 → DynamoDB → Lambda 02 → RDS → Lambda 03 → S
 
 ---
 
-## 🟧 **6. Práticas de FinOps**
+## 🟧 6. Práticas de FinOps
 
 - Lambda sob demanda (pay-per-request)
 
@@ -284,7 +284,7 @@ API Gateway → Lambda 01 → DynamoDB → Lambda 02 → RDS → Lambda 03 → S
 
 ---
 
-## 🟧 **7. Práticas DevOps**
+## 🟧 7. Práticas DevOps
 
 - Infraestrutura como código (Terraform)
 
@@ -308,7 +308,7 @@ API Gateway → Lambda 01 → DynamoDB → Lambda 02 → RDS → Lambda 03 → S
 
 ---
 
-## 🟧 **8. Estrutura do Projeto**
+## 🟧 8. Estrutura do Projeto
 backend/
   java/
   python/
@@ -327,7 +327,7 @@ docs/
 
 ---
 
-## 🟧 **9. Roadmap**
+## 🟧 9. Roadmap
 
  Arquitetura AWS (Draw.io)
 
