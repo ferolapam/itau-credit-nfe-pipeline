@@ -189,7 +189,6 @@ Dashboards incluem:
 }
 
 ## 📗 4.3 Avaliação de Crédito
-```json
 {
   "customerId": "U2-001",
   "nfeKey": "35240512345678000123550010001234567890123456",
@@ -199,7 +198,6 @@ Dashboards incluem:
 }
 
 ## 📕 4.4 Avaliação de Adiantamento
-```json
 {
   "customerId": "U2-001",
   "nfeKey": "35240512345678000123550010001234567890123456",
@@ -209,7 +207,6 @@ Dashboards incluem:
 }
 
 ## 📙 4.5 Resposta de Liberação (Output)
-```json
 {
   "status": "approved",
   "approvedAmount": 30000.00,
@@ -309,6 +306,7 @@ API Gateway → Lambda 01 → DynamoDB → Lambda 02 → RDS → Lambda 03 → S
 ---
 
 ## 🟧 8. Estrutura do Projeto
+
 backend/
   java/
   python/
